@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Cambria";
+  src: url("Cambria-Bold.eot");
+  src: local("Cambria Bold"), local("Cambria-Bold"),
+    url("../fonts/Cambria-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Cambria-Bold.woff2") format("woff2"),
+    url("../fonts/Cambria-Bold.woff") format("woff"),
+    url("../fonts/Cambria-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cambria";
+  src: url("Cambria-Italic.eot");
+  src: local("Cambria Italic"), local("Cambria-Italic"),
+    url("../fonts/Cambria-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Cambria-Italic.woff2") format("woff2"),
+    url("../fonts/Cambria-Italic.woff") format("woff"),
+    url("../fonts/Cambria-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Cambria";
+  src: url("Cambria.eot");
+  src: local("Cambria"),
+    url("../fonts/Cambria.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Cambria.woff2") format("woff2"),
+    url("../fonts/Cambria.woff") format("woff"),
+    url("../fonts/Cambria.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cambria";
+  src: url("Cambria-BoldItalic.eot");
+  src: local("Cambria Bold Italic"), local("Cambria-BoldItalic"),
+    url("../fonts/Cambria-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Cambria-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Cambria-BoldItalic.woff") format("woff"),
+    url("../fonts/Cambria-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "DS Moster";
+  src: url("../fonts/DSMoster.woff2") format("woff2"),
+    url("../fonts/DSMoster.woff") format("woff"),
+    url("../fonts/DSMoster.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
