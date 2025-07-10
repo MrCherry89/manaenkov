@@ -267,6 +267,28 @@ main {
       }
       .main-menu {
         li {
+          &:nth-child(4){
+            .menu-icon{
+              left: 20px;
+            }
+          }
+          &:nth-child(6){
+            .menu-icon{
+              left: 15px !important;
+              bottom: 0 !important;
+            }
+          }
+          &:nth-child(5){
+            .menu-icon{
+              left: 5px;
+            }
+          }
+          &:nth-child(8){
+            .menu-icon{
+              left: 20px !important;
+              width: 120px !important;
+            }
+          }
           a {
             width: 100%;
             @include flex;
@@ -282,7 +304,7 @@ main {
               position: absolute;
               left: 0px;
               bottom: 0;
-              width: 70%;
+              width: 120px;
             }
             .arrow {
               width: 20px;
@@ -396,6 +418,7 @@ main {
       @media (max-width: 767px) {
         display: none;
       }
+
       &.style2{
         left: 560px;
         @media (max-width: 1920px) {
@@ -403,6 +426,20 @@ main {
         }
         @media (max-width: 1024px) {
           left: 200px;
+        }
+      }
+      &.home-new{
+        @media (max-width: 1024px) {
+          top: 598px;
+          left: -10px;
+        }
+        &.home-new{
+          @media (max-width: 767px) {
+            top: 443px;
+            left: 30px;
+            display: block;
+            width: 100px;
+          }
         }
       }
     }
