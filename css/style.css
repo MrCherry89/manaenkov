@@ -360,7 +360,7 @@ main.overflow {
     max-width: 150px;
   }
   .header .header-menu-wrap .main-menu li:nth-child(1) .menu-icon {
-    width: 180px;
+    width: 140px;
   }
   .header .header-menu-wrap .main-menu li:nth-child(2) .menu-icon {
     width: 180px;
@@ -460,6 +460,19 @@ main.overflow {
     display: none;
   }
 }
+.header .wrapper .new-img.style2 {
+  left: 560px;
+}
+@media (max-width: 1920px) {
+  .header .wrapper .new-img.style2 {
+    left: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .header .wrapper .new-img.style2 {
+    left: 200px;
+  }
+}
 .header .wrapper .archive-link {
   position: absolute;
   top: 40px;
@@ -532,6 +545,9 @@ main.overflow {
     margin-bottom: -50px;
     padding-top: 50px;
   }
+}
+.header .wrapper .lucy-mobile.new-mobile {
+  padding-top: 0;
 }
 .header .wrapper .lucy-mobile.archive-mobile {
   padding-top: 170px;
@@ -3783,6 +3799,7 @@ main.main-bg:after {
 }
 .info-items-wrap .wrapper {
   padding: 0 20px;
+  max-width: 2020px;
 }
 .info-items-wrap .info-items {
   display: -webkit-box;
@@ -3791,14 +3808,14 @@ main.main-bg:after {
   -ms-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   align-items: flex-end;
   width: calc(100% + 30px);
   margin-left: -15px;
 }
-@media (max-width: 1800px) {
+@media (max-width: 1920px) {
   .info-items-wrap .info-items {
     max-width: 1120px;
     width: 100%;
@@ -3832,14 +3849,15 @@ main.main-bg:after {
   }
 }
 .info-items-wrap .info-items .info-item.new-item .img1 {
-  margin-left: -30px;
+  margin-left: -40px;
   margin-bottom: -20px;
+  min-width: 300px;
 }
 @media (max-width: 1024px) {
   .info-items-wrap .info-items .info-item.new-item .img1 {
-    min-width: 160px;
+    min-width: 180px;
     margin-left: -5px;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
   }
 }
 .info-items-wrap .info-items .info-item.new-item .img2 {
@@ -4010,6 +4028,16 @@ main.main-bg:after {
 .info-items-wrap .info-items .info-item:nth-child(1) .img-wrap {
   width: 234px;
   height: 272px;
+}
+@media (max-width: 1024px) {
+  .info-items-wrap .info-items .info-item:nth-child(1) .img-wrap {
+    width: auto;
+  }
+}
+@media (max-width: 1024px) {
+  .info-items-wrap .info-items .info-item:nth-child(1) .img-wrap {
+    min-width: 170px;
+  }
 }
 .info-items-wrap .info-items .info-item:nth-child(2) .img-wrap {
   width: 218px;

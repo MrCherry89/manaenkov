@@ -300,7 +300,7 @@ main {
           }
           &:nth-child(1) {
             .menu-icon {
-              width: 180px;
+              width: 140px;
             }
           }
           &:nth-child(2) {
@@ -396,6 +396,15 @@ main {
       @media (max-width: 767px) {
         display: none;
       }
+      &.style2{
+        left: 560px;
+        @media (max-width: 1920px) {
+          left: 0;
+        }
+        @media (max-width: 1024px) {
+          left: 200px;
+        }
+      }
     }
     .archive-link {
       position: absolute;
@@ -452,6 +461,9 @@ main {
         max-height: 100%;
         margin-bottom: -50px;
         padding-top: 50px;
+      }
+      &.new-mobile{
+        padding-top: 0;
       }
       &.archive-mobile {
         padding-top: 170px;
