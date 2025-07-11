@@ -322,7 +322,7 @@
           margin-bottom: -20px;
           min-width: 300px;
           @media (max-width: 1024px) {
-            min-width: 180px;
+            min-width: 190px;
             margin-left: -5px;
             margin-bottom: -20px;
           }
@@ -428,7 +428,7 @@
         @include flex;
         align-items: flex-end;
         @media (max-width: 767px) {
-          width: auto !important;
+          width: 150px !important;
           height: auto !important;
         }
         img {
@@ -491,6 +491,9 @@
         .img-wrap {
           width: 218px;
           height: 265px;
+          @media (max-width: 767px) {
+            margin-left: 20px;
+          }
         }
       }
       &:nth-child(3) {

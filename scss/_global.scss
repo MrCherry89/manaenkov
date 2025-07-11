@@ -204,6 +204,21 @@ main {
   }
 }
 
+.mobile-image{
+  display: none;
+  @media (max-width: 767px) {
+    display: block;
+    position: absolute;
+    width: 130px;
+    top: 390px;
+    left: 0px;
+    z-index: 10;
+    img{
+      width: 100%;
+    }
+  }
+}
+
 .header {
   position: relative;
   z-index: 1;
@@ -435,10 +450,7 @@ main {
         }
         &.home-new{
           @media (max-width: 767px) {
-            top: 443px;
-            left: 30px;
-            display: block;
-            width: 100px;
+            display: none;
           }
         }
       }
