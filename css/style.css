@@ -3916,12 +3916,20 @@ main.main-bg:after {
   }
 }
 @media (max-width: 767px) {
+  .info-items-wrap .info-items .info-item.new-item .text {
+    bottom: 30px !important;
+  }
+  .info-items-wrap .info-items .info-item.new-item .text br {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
   .info-items-wrap .info-items .info-item.new-item.active {
     margin-bottom: 20px;
   }
   .info-items-wrap .info-items .info-item.new-item.active .mobile-img {
-    width: 320px;
-    top: 46%;
+    width: 350px;
+    top: 44%;
   }
 }
 .info-items-wrap .info-items .info-item.new-item .img1 {

@@ -336,13 +336,20 @@
         width: calc(50% - 30px);
       }
       &.new-item{
-
+        .text{
+          @media (max-width: 767px) {
+            bottom: 30px !important;
+            br{
+              display: none;
+            }
+          }
+        }
         &.active{
           @media (max-width: 767px) {
             margin-bottom: 20px;
             .mobile-img{
-              width: 320px;
-              top: 46%;
+              width: 350px;
+              top: 44%;
             }
            }
         }
