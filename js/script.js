@@ -215,20 +215,22 @@ $(document).ready(function () {
     }
   });
 
-  const element = document.querySelector('.info-item.new-item');
-
-function toggleActiveClass() {
-  if (window.innerWidth <= 767) {
-    element.classList.add('active');   // на мобильных добавляем
-  } else {
-    element.classList.remove('active'); // на десктопе убираем
+  if (window.location.pathname.endsWith('new.html')) {
+    const element = document.querySelector('.info-item.new-item');
+  
+    function toggleActiveClass() {
+      if (window.innerWidth <= 767) {
+        element.classList.add('active');   // на мобильных добавляем
+      } else {
+        element.classList.remove('active'); // на десктопе убираем
+      }
+    }
+  
+    // Запускаем при загрузке страницы
+    window.addEventListener('load', toggleActiveClass);
+    // И при изменении размера окна
+    window.addEventListener('resize', toggleActiveClass);
   }
-}
-
-// Запускаем при загрузке страницы
-window.addEventListener('load', toggleActiveClass);
-// И при изменении размера окна
-window.addEventListener('resize', toggleActiveClass);
 
   document.addEventListener("DOMContentLoaded", function () {
     const iframes = document.querySelectorAll("iframe[data-src]");
