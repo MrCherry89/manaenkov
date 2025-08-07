@@ -4616,7 +4616,7 @@ main.main-bg:after {
   margin: 20px auto 60px;
   position: relative;
   z-index: 0;
-  padding: 40px;
+  padding: 30px;
   padding-bottom: 20px;
   border-radius: 12px;
   background: url(../img/info-style-bg.png);
@@ -4640,7 +4640,7 @@ main.main-bg:after {
 @media (max-width: 767px) {
   .archive-wrap .info-style {
     width: 100%;
-    padding: 30px;
+    padding: 20px;
     padding-bottom: 10px;
     margin: 0;
     margin-bottom: 30px;
@@ -4685,6 +4685,14 @@ main.main-bg:after {
 @media (max-width: 767px) {
   .archive-wrap .info-style span {
     font-size: 18px;
+  }
+}
+.archive-wrap .info-style span br {
+  display: none;
+}
+@media (max-width: 767px) {
+  .archive-wrap .info-style span br {
+    display: inline-block;
   }
 }
 .archive-wrap .info-style span a {
